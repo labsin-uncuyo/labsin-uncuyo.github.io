@@ -9,6 +9,13 @@
     <meta name="author" content="LABSIN" />
     <meta name="og:image" content="http://labsin.org/images/logolnk.png"/>
 
+    <script>
+      var idioma = navigator.language || navigator.userLanguage; 
+      if(idioma != "es" && idioma.indexOf("es-") != 0 && window.location.href.indexOf("en.html") == -1){
+        window.location.replace("http://labsin.org/en.html");
+      }
+    </script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153082860-1"></script>
     <script>
@@ -75,7 +82,7 @@
 				
                 <li><a href="#section-team" class="nav-link">Equipo</a></li>
                 <li><a href="#section-contact" class="nav-link">Contacto</a></li>
-                <!-- li><a href="en.html" class="nav-link" style="font-size: 10px;">English</a></li -->
+                <li><a href="en.html" class="nav-link" style="font-size: 10px;">English</a></li>
               </ul>
             </nav>
           </div>
@@ -259,7 +266,7 @@
                 <li><a href="https://www.researchgate.net/profile/Martin_Marchetta" target="blank"><i class="fab fa-researchgate profile-link-rg"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/mmarchetta/" target="blank"><i class="fab fa-linkedin-in profile-link-lin"></i></a></li>
               </ul>
-              <p class="mb-4">Doctor en Ingeniería (Universidad Nacional de Cuyo). Master Design Global (Université de Lorraine). Tecnólogo entusiasta.<br><br>Intereses: Machine Learning, Agentes Inteligentes, Metaheurísticas, Optimización, Innovación, Aplicaciones Industriales</p>
+              <p class="mb-4">Doctor en Ingeniería (Universidad Nacional de Cuyo). Master Design Global (Université de Lorraine).<br><br>Intereses: Machine Learning, Agentes Inteligentes, Metaheurísticas, Optimización, Innovación, Aplicaciones Industriales</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="200">
@@ -395,6 +402,7 @@
                   <li><a href="#section-research-projects">Proyectos</a></li>
                   <li><a href="#section-team">Equipo</a></li>
                   <li><a href="#section-contact">Contacto</a></li>
+                  <li><a href="en.html">English</a></li>                  
                 </ul>
               </div>
             </div>
