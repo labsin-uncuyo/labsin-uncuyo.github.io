@@ -7,17 +7,19 @@
     
     <meta name="description" content="Laboratorio de Sistemas Inteligentes. Facultad de Ingenieria. Universidad Nacional de Cuyo. Mendoza. Argentina" />
     <meta name="author" content="LABSIN" />
-    <meta name="og:image" content="http://labsin.org/images/logolnk.png"/>
+	<meta name="og:image" content="http://labsin.org/images/logolnk.png"/>
+    <!-- 
+    //////////////////////////////////////////////////////
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153082860-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    FREE TEMPLATE 
+    DESIGNED & DEVELOPED by free-template.co
+      
+    Website:    https://free-template.co
+    Facebook:   https://www.facebook.com/FreeDashTemplate.co
+    Twitter:    https://twitter.com/Free_Templateco
 
-      gtag('config', 'UA-153082860-1');
-    </script>
+    //////////////////////////////////////////////////////
+    -->
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900|Display+Playfair:200,300,400,700"> 
     <link rel="stylesheet" href="fonts/icomoon/style.css">
@@ -31,7 +33,6 @@
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">    
     <link rel="stylesheet" href="css/all.css">
-    <link rel="icon" type="image/png" href="images/favicon.png" sizes="512x512">
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="200">
   
@@ -75,7 +76,6 @@
 				
                 <li><a href="#section-team" class="nav-link">Equipo</a></li>
                 <li><a href="#section-contact" class="nav-link">Contacto</a></li>
-                <li><a href="index.html" class="nav-link">English</a></li>
               </ul>
             </nav>
           </div>
@@ -209,7 +209,7 @@
               <h3>Detección de Forestación en Señales Satelitales mediante Machine Learning</h3>
               <p class="mb-4">El procesamiento cuidadoso de los datos obtenidos de sensores instalados en satélites puede proveer información útil respecto a diferentes fenómenos naturales y artificiales relacionados con la Tierra. La detección de forestación y el estudio de diferentes areas de la superficie terrestre es útil en diferentes problemas como la detección de desertificación, análisis de salud de la forestación, simulación de inundaciones, etc. Diferentes técnicas han sido propuestas proveyendo máscaras de vegetación o forestación basadas en datos de satélite, presentando diferentes problemas como la necesidad de intervención humana para correcciones o la falta de flexibilidad. En este trabajo se abordan dichos problemas aplicando algoritmos de Machine Learning para la detección automática de forestación usando datos de satelites. La presente propuesta es validada a traves de experimentos usando Modelos de Superficie Digitales, firmas espectrales ópticas y térmicas y máscaras de forestación, obtenidas de los proyectos SRTM, Landsat-8 y JAXA en diversas regiones.</p>
               <div class="col-md-12 col-lg-12 mb-12 mb-lg-12" style="text-align: center;">
-                <img src="images/mlforest.jpg" alt="Image" class="img-fluid project-image">              
+                <img src="images/mlforest.png" alt="Image" class="img-fluid project-image">              
               </div>
           </div>
           <br>
@@ -248,32 +248,18 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="300">
-            <div class="person">
-              <div style="text-align:center;">
-                <img src="images/harpo.jpg" alt="Image" class="img-fluid rounded mb-5 w-75 rounded-circle">
-              </div>
-              <h3>Carlos Catania (Harpo)</h3>
-              <p class="position text-muted">Director</p>
-              <ul class="ul-social-circle">
-                <li><a href="https://www.researchgate.net/profile/Carlos_Catania" target="blank"><i class="fab fa-researchgate profile-link-rg"></i></a></li>
-              </ul>
-              <p class="mb-4">Doctor en Ciencias de la Computación (Universidad Nacional del Centro de la Provincia de Buenos Aires). Activista del software Libre.<br><br>Intereses: Machine Learning aplicado a sistemas de navegacion, agricultura, ganaderia, seguridad informática, sistemas distribuidos, redes de datos.</p>
-              <br>
-            </div>
-          </div>          
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
             <div class="person">
               <div style="text-align:center;">
                 <img src="images/mm.jpg" alt="Image" class="img-fluid rounded mb-5 w-75 rounded-circle">
               </div>
               <h3>Martín Marchetta</h3>
-              <p class="position text-muted">Co-Director</p>
+              <p class="position text-muted">Director</p>
               <ul class="ul-social-circle">
                 <li><a href="https://www.researchgate.net/profile/Martin_Marchetta" target="blank"><i class="fab fa-researchgate profile-link-rg"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/mmarchetta/" target="blank"><i class="fab fa-linkedin-in profile-link-lin"></i></a></li>
               </ul>
-              <p class="mb-4">Doctor en Ingeniería (Universidad Nacional de Cuyo). Master Design Global (Université de Lorraine).<br><br>Intereses: Machine Learning, Agentes Inteligentes, Metaheurísticas, Optimización, Innovación, Aplicaciones Industriales</p>
+              <p class="mb-4">Doctor en Ingeniería (Universidad Nacional de Cuyo). Master Design Global (Université de Lorraine). Tecnólogo entusiasta.<br><br>Intereses: Machine Learning, Agentes Inteligentes, Metaheurísticas, Optimización, Innovación, Aplicaciones Industriales</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="200">
@@ -282,11 +268,25 @@
                 <img src="images/kike.jpg" alt="Image" class="img-fluid rounded mb-5 w-75 rounded-circle">
               </div>
               <h3>Raymundo Forradellas (Kike)</h3>
-              <p class="position text-muted">Investigador</p>
+              <p class="position text-muted">Co-Director</p>
               <ul class="ul-social-circle">
                 <li><a href="https://www.researchgate.net/profile/Raymundo_Forradellas" target="blank"><i class="fab fa-researchgate profile-link-rg"></i></a></li>
               </ul>
               <p class="mb-4">Doctor en Inteligencia Artificial (Universidad Politécnica de Madrid).<br><br>Intereses: Inteligencia Artificial aplicada, Planificación y Scheduling, Logística y Sistemas Industriales.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="300">
+            <div class="person">
+              <div style="text-align:center;">
+                <img src="images/harpo.jpg" alt="Image" class="img-fluid rounded mb-5 w-75 rounded-circle">
+              </div>
+              <h3>Carlos Catania (Harpo)</h3>
+              <p class="position text-muted">Investigador</p>
+              <ul class="ul-social-circle">
+                <li><a href="https://www.researchgate.net/profile/Carlos_Catania" target="blank"><i class="fab fa-researchgate profile-link-rg"></i></a></li>
+              </ul>
+              <p class="mb-4">Doctor en Ciencias de la Computación (Universidad Nacional del Centro de la Provincia de Buenos Aires). Activista del software Libre.<br><br>Intereses: Machine Learning aplicado a sistemas de navegacion, agricultura, ganaderia, seguridad informática, sistemas distribuidos, redes de datos.</p>
+              <br>
             </div>
           </div>
         </div>
@@ -366,7 +366,7 @@
           <div class="col-md-6">
             <div class="p-4 mb-3 bg-white">
               <h3 class="h5 text-black mb-3">Más info</h3>
-              <p class="mb-4">También te puede interesar nuestro <a href="https://github.com/labsin-uncuyo" target="blank">repositorio de código</a> y <a href="https://www.researchgate.net/lab/LABSIN-Intelligent-Systems-Laboratory-Martin-G-Marchetta" target="blank">publicaciones</a>.</p>
+              <p class="mb-4">También te puede interesar nuestro <a href="https://github.com/labsin-uncuyo" target="blank">repositorio de código</a> y publicaciones.</p>
               <br>
               <p>Te interesa desarrollar <span class="font-weight-bold">investigación</span> con nosotros?<br>Necesitas <span class="font-weight-bold">capacitación o consultoría</span>? <br>Tienes  <span class="font-weight-bold">proyectos</span> que requieren Inteligencia Artificial? <br><br>Contáctanos!</p>
             </div>
@@ -395,7 +395,6 @@
                   <li><a href="#section-research-projects">Proyectos</a></li>
                   <li><a href="#section-team">Equipo</a></li>
                   <li><a href="#section-contact">Contacto</a></li>
-                  <li><a href="en.html">English</a></li>                  
                 </ul>
               </div>
             </div>
