@@ -1435,6 +1435,11 @@ h1, h2, h3, h4, h5,
 	font-size:22px;
 }
 
+.profile-link-tw {
+	color:#00acee;
+	font-size:22px;
+}
+
 .project-image {
 	width: 800px;
 }
